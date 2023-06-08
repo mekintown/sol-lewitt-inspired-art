@@ -3,3 +3,22 @@
     margin: 0;
     padding: 0;
 }
+
+.spin {
+    animation: spin 8s infinite linear;
+}
+
+@keyframes spin {
+    25%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
